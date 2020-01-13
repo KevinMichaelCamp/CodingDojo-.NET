@@ -1,0 +1,11 @@
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\Fun1\bin\Debug\netcoreapp2.2\Fun1.deps.json
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\Fun1\bin\Debug\netcoreapp2.2\Fun1.runtimeconfig.json
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\Fun1\bin\Debug\netcoreapp2.2\Fun1.runtimeconfig.dev.json
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\Fun1\bin\Debug\netcoreapp2.2\Fun1.dll
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\Fun1\bin\Debug\netcoreapp2.2\Fun1.pdb
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\Fun1\obj\Debug\netcoreapp2.2\Fun1.csprojAssemblyReference.cache
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\Fun1\obj\Debug\netcoreapp2.2\Fun1.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\Fun1\obj\Debug\netcoreapp2.2\Fun1.AssemblyInfoInputs.cache
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\Fun1\obj\Debug\netcoreapp2.2\Fun1.AssemblyInfo.cs
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\Fun1\obj\Debug\netcoreapp2.2\Fun1.dll
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\Fun1\obj\Debug\netcoreapp2.2\Fun1.pdb
