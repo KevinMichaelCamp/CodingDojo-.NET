@@ -1,0 +1,11 @@
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\MultTable\bin\Debug\netcoreapp2.2\MultTable.deps.json
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\MultTable\bin\Debug\netcoreapp2.2\MultTable.runtimeconfig.json
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\MultTable\bin\Debug\netcoreapp2.2\MultTable.runtimeconfig.dev.json
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\MultTable\bin\Debug\netcoreapp2.2\MultTable.dll
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\MultTable\bin\Debug\netcoreapp2.2\MultTable.pdb
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\MultTable\obj\Debug\netcoreapp2.2\MultTable.csprojAssemblyReference.cache
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\MultTable\obj\Debug\netcoreapp2.2\MultTable.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\MultTable\obj\Debug\netcoreapp2.2\MultTable.AssemblyInfoInputs.cache
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\MultTable\obj\Debug\netcoreapp2.2\MultTable.AssemblyInfo.cs
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\MultTable\obj\Debug\netcoreapp2.2\MultTable.dll
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\MultTable\obj\Debug\netcoreapp2.2\MultTable.pdb
