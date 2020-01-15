@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\FirstCSharp\\FirstCSharp.csproj",
-      "projectName": "FirstCSharp",
-      "projectPath": "C:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\FirstCSharp\\FirstCSharp.csproj",
+      "projectUniqueName": "C:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\Fundamentals\\Collections\\Collections.csproj",
+      "projectName": "Collections",
+      "projectPath": "C:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\Fundamentals\\Collections\\Collections.csproj",
       "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\FirstCSharp\\obj\\",
+      "outputPath": "C:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\Fundamentals\\Collections\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
