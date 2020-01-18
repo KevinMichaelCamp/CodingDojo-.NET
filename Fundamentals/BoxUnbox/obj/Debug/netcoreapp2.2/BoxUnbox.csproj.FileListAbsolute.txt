@@ -1,0 +1,11 @@
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\BoxUnbox\bin\Debug\netcoreapp2.2\BoxUnbox.deps.json
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\BoxUnbox\bin\Debug\netcoreapp2.2\BoxUnbox.runtimeconfig.json
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\BoxUnbox\bin\Debug\netcoreapp2.2\BoxUnbox.runtimeconfig.dev.json
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\BoxUnbox\bin\Debug\netcoreapp2.2\BoxUnbox.dll
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\BoxUnbox\bin\Debug\netcoreapp2.2\BoxUnbox.pdb
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\BoxUnbox\obj\Debug\netcoreapp2.2\BoxUnbox.csprojAssemblyReference.cache
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\BoxUnbox\obj\Debug\netcoreapp2.2\BoxUnbox.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\BoxUnbox\obj\Debug\netcoreapp2.2\BoxUnbox.AssemblyInfoInputs.cache
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\BoxUnbox\obj\Debug\netcoreapp2.2\BoxUnbox.AssemblyInfo.cs
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\BoxUnbox\obj\Debug\netcoreapp2.2\BoxUnbox.dll
+C:\Users\kevin\Desktop\Dojo\dotNET\Fundamentals\BoxUnbox\obj\Debug\netcoreapp2.2\BoxUnbox.pdb
