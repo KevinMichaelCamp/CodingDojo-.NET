@@ -1,0 +1,11 @@
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\CardDeck\bin\Debug\netcoreapp2.2\CardDeck.deps.json
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\CardDeck\bin\Debug\netcoreapp2.2\CardDeck.runtimeconfig.json
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\CardDeck\bin\Debug\netcoreapp2.2\CardDeck.runtimeconfig.dev.json
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\CardDeck\bin\Debug\netcoreapp2.2\CardDeck.dll
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\CardDeck\bin\Debug\netcoreapp2.2\CardDeck.pdb
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\CardDeck\obj\Debug\netcoreapp2.2\CardDeck.csprojAssemblyReference.cache
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\CardDeck\obj\Debug\netcoreapp2.2\CardDeck.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\CardDeck\obj\Debug\netcoreapp2.2\CardDeck.AssemblyInfoInputs.cache
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\CardDeck\obj\Debug\netcoreapp2.2\CardDeck.AssemblyInfo.cs
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\CardDeck\obj\Debug\netcoreapp2.2\CardDeck.dll
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\CardDeck\obj\Debug\netcoreapp2.2\CardDeck.pdb
