@@ -1,0 +1,11 @@
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\Inheritance\obj\Debug\netcoreapp2.2\Inheritance.csprojAssemblyReference.cache
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\Inheritance\obj\Debug\netcoreapp2.2\Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\Inheritance\obj\Debug\netcoreapp2.2\Inheritance.AssemblyInfoInputs.cache
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\Inheritance\obj\Debug\netcoreapp2.2\Inheritance.AssemblyInfo.cs
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\Inheritance\bin\Debug\netcoreapp2.2\Inheritance.deps.json
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\Inheritance\bin\Debug\netcoreapp2.2\Inheritance.runtimeconfig.json
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\Inheritance\bin\Debug\netcoreapp2.2\Inheritance.runtimeconfig.dev.json
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\Inheritance\bin\Debug\netcoreapp2.2\Inheritance.dll
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\Inheritance\bin\Debug\netcoreapp2.2\Inheritance.pdb
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\Inheritance\obj\Debug\netcoreapp2.2\Inheritance.dll
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\Inheritance\obj\Debug\netcoreapp2.2\Inheritance.pdb
