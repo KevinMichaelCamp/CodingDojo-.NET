@@ -1,0 +1,11 @@
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\RPG\bin\Debug\netcoreapp2.2\RPG.deps.json
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\RPG\bin\Debug\netcoreapp2.2\RPG.runtimeconfig.json
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\RPG\bin\Debug\netcoreapp2.2\RPG.runtimeconfig.dev.json
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\RPG\bin\Debug\netcoreapp2.2\RPG.dll
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\RPG\bin\Debug\netcoreapp2.2\RPG.pdb
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\RPG\obj\Debug\netcoreapp2.2\RPG.csprojAssemblyReference.cache
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\RPG\obj\Debug\netcoreapp2.2\RPG.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\RPG\obj\Debug\netcoreapp2.2\RPG.AssemblyInfoInputs.cache
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\RPG\obj\Debug\netcoreapp2.2\RPG.AssemblyInfo.cs
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\RPG\obj\Debug\netcoreapp2.2\RPG.dll
+C:\Users\kevin\Desktop\Dojo\dotNET\OOP\RPG\obj\Debug\netcoreapp2.2\RPG.pdb
