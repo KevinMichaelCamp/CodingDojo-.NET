@@ -5,27 +5,77 @@ namespace Demo     //be sure to use your own project's namespace!
     {
         // Requests
 
+        // Views Index
         [HttpGet]       //type of request
         [Route("")]     // localost:5000/
-        public string Index()
+        public ViewResult Index()
         {
-            return "Hello from HelloController!";
+            return View();
         }
 
-
-        [HttpGet("hello")]       //type of request & route localhost:5000/hello
-
-        public string Hello()
+        // Views - Home
+        [HttpGet("home")]       //type of request & route localhost:5000/home
+        public ViewResult Home()
         {
-            return "Hi again!";
+            ViewBag.Example = "From the ViewBag!";
+            return View();
         }
 
-        [HttpGet("users/{username}/{location}/{age}")]   // localhost:5000/users/???
-        public string HelloUser(string username, string location, int age)
+        // Redirect
+        [HttpGet("redirect")]
+        public RedirectToActionResult RedoIndex()
         {
-            return $"Hello {username} from {location}! You are {age} years old.";
+            return RedirectToAction("Index");
         }
 
+        // Redirect to Route with params
+        [HttpGet("redirect/users")]
+        public RedirectToActionResult RedoUsers()
+        {
+            // or user var param = new { name= "kevin" }
+            return RedirectToAction("Users", new { name = "Kevin", age = 40 });
+        }
+
+        // Using Route Params
+        [HttpGet("users/{name}/{age}")]
+        public string Users(string name, int age)
+        {
+            return $"Hello {name}, you are {age} years old.";
+        }
+
+        // Redirect to Method in OtherController
+        [HttpGet("other")]
+        public RedirectToActionResult Method()
+        {
+            return RedirectToAction("Another", "Other");
+        }
+
+        // Return JSON Result
+        [HttpGet("user1")]
+        public JsonResult User1()
+        {
+            var response = new { first_name = "Kevin", last_name = "Camp", email = "kcamp4632@yahoo.com", age = 40 };
+            return Json(response);
+        }
+
+        // IActionResult
+        [HttpGet("request/{type}")]
+        public IActionResult Depends(string type)
+        {
+            var result = new { type = "JSON" };
+            if (type == "redirect")
+            {
+                return RedirectToAction("Index");
+            }
+            else if (type == "json")
+            {
+                return Json(result);
+            }
+            return View();
+
+        }
+
+        // POST Request
         [HttpPost("submission")] // POST to localhost:5000/submission
         public string FormSubmission(string formInput)
         {

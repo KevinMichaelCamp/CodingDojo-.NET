@@ -21,3 +21,6 @@ C:\Users\kevin\Desktop\Dojo\dotNET\ASP\Demo\obj\Debug\netcoreapp2.2\Razor\Views\
 C:\Users\kevin\Desktop\Dojo\dotNET\ASP\Demo\obj\Debug\netcoreapp2.2\Demo.RazorTargetAssemblyInfo.cs
 C:\Users\kevin\Desktop\Dojo\dotNET\ASP\Demo\obj\Debug\netcoreapp2.2\Demo.Views.pdb
 C:\Users\kevin\Desktop\Dojo\dotNET\ASP\Demo\obj\Debug\netcoreapp2.2\Demo.csproj.CopyComplete
+C:\Users\kevin\Desktop\Dojo\dotNET\ASP\Demo\obj\Debug\netcoreapp2.2\Razor\Views\Home\home.g.cshtml.cs
+C:\Users\kevin\Desktop\Dojo\dotNET\ASP\Demo\obj\Debug\netcoreapp2.2\Razor\Views\Other\another.g.cshtml.cs
+C:\Users\kevin\Desktop\Dojo\dotNET\ASP\Demo\obj\Debug\netcoreapp2.2\Razor\Views\Home\depends.g.cshtml.cs

@@ -2961,8 +2961,23 @@
   "RootNamespace": "Demo",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\ASP\\Demo\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\ASP\\Demo\\Views\\Home\\depends.cshtml",
+      "TargetPath": "Views\\Home\\depends.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\ASP\\Demo\\Views\\Home\\home.cshtml",
+      "TargetPath": "Views\\Home\\home.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\ASP\\Demo\\Views\\Home\\index.cshtml",
+      "TargetPath": "Views\\Home\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\ASP\\Demo\\Views\\Other\\another.cshtml",
+      "TargetPath": "Views\\Other\\another.cshtml",
       "FileKind": "mvc"
     }
   ],
