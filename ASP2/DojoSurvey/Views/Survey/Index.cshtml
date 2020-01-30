@@ -1,0 +1,36 @@
+<div class="jumbotron">
+    <h1 class="display-4">Dojo Survey</h1>
+</div>
+<main>
+    <form action="/result" method="post">
+        <table class="table table-borderless">
+            <tr>
+                <td><label for="Name">Your Name:</label></td>
+                <td><input id="Name" class="form-control" type="text" name="Name"></td>
+            </tr>
+            <tr>
+                <td><label for="Location">Dojo Location:</label></td>
+                <td><select class="form-control" name="Location" id="Location">
+                    <option value="Dallas">Dallas</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="San Jose">San Jose</option>
+                    <option value="Seattle">Seattle</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="Language">Favorite Language:</label></td>
+                <td><select class="form-control" name="Language" id="Language">
+                    <option value="C#">C#</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Python">Python</option>
+                    <option value="Ruby">Ruby</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="Comment">Comment (optional):</label></td>
+                <td><textarea class="form-control" name="Comment" id="Comment" cols="50" rows="2"></textarea></td>
+            </tr>
+        </table>
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+</main>

@@ -1,0 +1,26 @@
+@using DojoSurvey.Models
+@model User
+
+<div class="jumbotron">
+    <h1 class="display-4">Survey Result</h1>
+</div>
+<main>
+    <table class="table table-borderless">
+        <tr>
+            <td>Name:</td>
+            <td>@Model.Name</td>
+        </tr>
+        <tr>
+            <td>Location:</td>
+            <td>@Model.Location</td>
+        </tr>
+        <tr>
+            <td>Language:</td>
+            <td>@Model.Language</td>
+        </tr>
+        <tr>
+            <td>Comment:</td>
+            <td>@Model.Comment</td>
+        </tr>
+    </table>
+</main>

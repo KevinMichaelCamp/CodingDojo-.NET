@@ -1,0 +1,9 @@
+.jumbotron {
+    margin-top: 20px;
+    padding: 10px !important;
+    text-align: center;
+}
+
+td {
+    width: 100px;
+}
