@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>Survey Result</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Survey Result</h1>
+        </div>
+        <table class="table-borderless">
+                <tr>
+                    <td>Name:</td>
+                    <td>@ViewBag.Name</td>
+                </tr>
+                <tr>
+                    <td>Dojo Location:</td>
+                    <td>@ViewBag.Location</td>
+                </tr>
+                <tr>
+                    <td>Favorite Language:</td>
+                    <td>@ViewBag.Language</td>
+                </tr>
+                <tr>
+                    <td>Comment:</td>
+                    <td>@ViewBag.Comment</td>
+                </tr>
+            </table>
+            <a href="/"><button class="btn btn-primary">Go Back</button></a>
+    </div>
+</body>
+</html>
