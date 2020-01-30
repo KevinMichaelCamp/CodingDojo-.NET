@@ -1,0 +1,10 @@
+@using ViewModels.Models
+@model int[]
+
+<div class="jumbotron">
+    <h1 class="display-4">Array of Numbers</h1>
+</div>
+@foreach (var number in Model)
+{
+    <p>@number</p>
+}

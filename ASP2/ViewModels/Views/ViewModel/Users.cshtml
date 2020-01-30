@@ -1,0 +1,10 @@
+@using ViewModels.Models
+@model List<User>
+
+<div class="jumbotron">
+    <h1 class="display-4">Collection of Users</h1>
+</div>
+@foreach (var user in Model)
+{
+    <p>@user.FirstName @user.LastName</p>
+}
