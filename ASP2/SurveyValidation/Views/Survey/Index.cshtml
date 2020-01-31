@@ -1,0 +1,49 @@
+@model User
+
+<div class="jumbotron">
+    <h1 class="display-4">Dojo Survey</h1>
+</div>
+<main>
+    <form asp-action="Validate" asp-controller="Survey" method="post">
+        <table class="table table-borderless">
+            <tr>
+                <td><label asp-for="Name"></label></td>
+                <td><input class="form-control" asp-for="Name"></td>
+            </tr>
+            <tr>
+                <td><label asp-for="Location"></label></td>
+                <td><select class="form-control" asp-for="Location">
+                    <option value=""></option>
+                    <option value="Dallas">Dallas</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="San Jose">San Jose</option>
+                    <option value="Seattle">Seattle</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label asp-for="Language"></label></td>
+                <td><select class="form-control" asp-for="Language">
+                    <option value=""></option>
+                    <option value="C#">C#</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Python">Python</option>
+                    <option value="Ruby">Ruby</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label asp-for="Comment">Comment (optional):</label></td>
+                <td><textarea class="form-control" asp-for="Comment"></textarea></td>
+            </tr>
+        </table>
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+    <div class="errors">
+        <span asp-validation-for="Name"></span>
+        <br>
+        <span asp-validation-for="Location"></span>
+        <br>
+        <span asp-validation-for="Language"></span>
+        <br>
+        <span asp-validation-for="Comment"></span>
+    </div>
+</main>
