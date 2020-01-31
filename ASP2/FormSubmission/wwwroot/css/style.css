@@ -1,0 +1,10 @@
+.errors {
+    color: red;
+    margin-top: 40px;
+}
+
+.jumbotron {
+    margin-top: 20px;
+    padding: 10px !important;
+    text-align: center;
+}
