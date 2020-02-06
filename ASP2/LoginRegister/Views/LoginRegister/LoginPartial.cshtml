@@ -1,0 +1,15 @@
+@model LogUser
+
+<form asp-action="Login" asp-controller="LoginRegister" method="post">
+    <table class="table table-borderless">
+        <tr>
+            <td><label asp-for="Email"></label></td>
+            <td><input class="form-control" asp-for="Email"></td>
+        </tr>
+        <tr>
+            <td><label asp-for="Password"></label></td>
+            <td><input class="form-control" asp-for="Password"></td>
+        </tr>
+    </table>
+    <button class="btn btn-primary" type="submit">Register</button>
+</form>
