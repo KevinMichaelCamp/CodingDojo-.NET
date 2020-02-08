@@ -1,0 +1,20 @@
+.container {
+    text-align: center;
+}
+
+.jumbotron {
+    margin-top: 20px;
+    padding: 10px !important;
+}
+
+li {
+    list-style: none;
+}
+
+span {
+    color: red;
+}
+
+ul {
+    text-align: left;
+}

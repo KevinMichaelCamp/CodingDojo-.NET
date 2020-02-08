@@ -1,0 +1,24 @@
+@model Quote
+<div class="jumbotron">
+    <h1 class="display-4">Add Quote</h1>
+</div>
+
+<main>
+    <form class="form" asp-action="Create" asp-controller="Quotes" method="post">
+        <table class="table table-borderless">
+            <tr>
+                <td><label asp-for="User"></label></td>
+                <td><input class="form-control" asp-for="User"></td>
+            </tr>
+            <tr>
+                <td><label asp-for="Content"></label></td>
+                <td><textarea class="form-control" asp-for="Content"></textarea></td>
+            </tr>
+        </table>
+        <button class="btn btn-primary font-weight-bold" type="submit">Add Quote</button>
+    </form>
+    <br>
+    <span asp-validation-for="User"></span>
+    <br>
+    <span asp-validation-for="Content"></span>
+</main>

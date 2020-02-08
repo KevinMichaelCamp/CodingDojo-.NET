@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\ASP2\\Dojodachi\\Dojodachi.csproj",
+  "FilePath": "c:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\ASP2\\QuotingDojo\\QuotingDojo.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2958,31 +2958,36 @@
     ],
     "CSharpLanguageVersion": 703
   },
-  "RootNamespace": "Dojodachi",
+  "RootNamespace": "QuotingDojo",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\ASP2\\Dojodachi\\Views\\Dojodachi\\Index.cshtml",
-      "TargetPath": "Views\\Dojodachi\\Index.cshtml",
+      "FilePath": "c:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\ASP2\\QuotingDojo\\Views\\Shared\\NavPartial.cshtml",
+      "TargetPath": "Views\\Shared\\NavPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\ASP2\\Dojodachi\\Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\ASP2\\QuotingDojo\\Views\\Quotes\\_Layout.cshtml",
+      "TargetPath": "Views\\Quotes\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\ASP2\\QuotingDojo\\Views\\Quotes\\Index.cshtml",
+      "TargetPath": "Views\\Quotes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\ASP2\\QuotingDojo\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\ASP2\\Dojodachi\\Views\\Dojodachi\\_Layout.cshtml",
-      "TargetPath": "Views\\Dojodachi\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\ASP2\\QuotingDojo\\Views\\Quotes\\Quotes.cshtml",
+      "TargetPath": "Views\\Quotes\\Quotes.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\ASP2\\Dojodachi\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\ASP2\\QuotingDojo\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kevin\\Desktop\\Dojo\\dotNET\\ASP2\\Dojodachi\\Views\\Shared\\NavPartial.cshtml",
-      "TargetPath": "Views\\Shared\\NavPartial.cshtml",
       "FileKind": "mvc"
     }
   ],
