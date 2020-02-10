@@ -1,0 +1,23 @@
+@model User
+
+<div class="jumbotron">
+    <h1 class="display-4">User @ViewBag.User.Id</h1>
+</div>
+
+<main>
+    <p>@ViewBag.User.Id</p>
+    <table class="table table-borderless">
+        <tr>
+            <td>Name:</td>
+            <td>@ViewBag.User.Name</td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td>@ViewBag.User.Email</td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td>@ViewBag.User.Password</td>
+        </tr>
+    </table>
+</main>

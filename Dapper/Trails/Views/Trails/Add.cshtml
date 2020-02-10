@@ -1,0 +1,48 @@
+@model Trail
+
+<div class="jumbotron">
+    <h1 class="display-4">Add a Trail</h1>
+</div>
+<main>
+    <form asp-action="Create" asp-contoller="Trails" method="post">
+        <table class="table table-borderless">
+            <tr>
+                <td><label asp-for="Name"></label></td>
+                <td><input class="form-control" asp-for="Name"></td>
+            </tr>
+            <tr>
+                <td><label asp-for="Description"></label></td>
+                <td><textarea class="form-control" asp-for="Description"></textarea></td>
+            </tr>
+            <tr>
+                <td><label asp-for="Length"></label></td>
+                <td><input class="form-control" asp-for="Length"></td>
+            </tr>
+            <tr>
+                <td><label asp-for="Elevation_Change"></label></td>
+                <td><input class="form-control" asp-for="Elevation_Change"></td>
+            </tr>
+            <tr>
+                <td><label asp-for="Latitude"></label></td>
+                <td><input class="form-control" asp-for="Latitude"></td>
+            </tr>
+            <tr>
+                <td><label asp-for="Longitude"></label></td>
+                <td><input class="form-control" asp-for="Longitude"></td>
+            </tr>
+        </table>
+        <button class="btn btn-primary" type="submit">Add Trail</button>
+    </form>
+    <br>
+    <span asp-validation-for="Name"></span>
+    <br>
+    <span asp-validation-for="Description"></span>
+    <br>
+    <span asp-validation-for="Length"></span>
+    <br>
+    <span asp-validation-for="Elevation_Change"></span>
+    <br>
+    <span asp-validation-for="Latitude"></span>
+    <br>
+    <span asp-validation-for="Longitude"></span>
+</main>

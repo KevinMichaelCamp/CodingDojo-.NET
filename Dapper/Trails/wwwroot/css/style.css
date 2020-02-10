@@ -1,0 +1,17 @@
+.container {
+    text-align: center;
+}
+
+.jumbotron {
+    margin-top: 20px;
+    padding: 10px !important;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+span {
+    color: red;
+}

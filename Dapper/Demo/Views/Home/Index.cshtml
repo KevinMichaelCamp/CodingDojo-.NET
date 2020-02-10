@@ -1,0 +1,32 @@
+@model User
+
+<div class="jumbotron">
+    <h1 class="display-4">Create User</h1>
+</div>
+
+<main>
+    <form class="form" asp-action="Create" asp-controller="Home" method="post">
+        <table class="table table-borderless">
+            <tr>
+                <td><label asp-for="Name"></label></td>
+                <td><input class="form-control" asp-for="Name"></td>
+            </tr>
+            <tr>
+                <td><label asp-for="Email"></label></td>
+                <td><input class="form-control" asp-for="Email"></td>
+            </tr>
+            <tr>
+                <td><label asp-for="Password"></label></td>
+                <td><input class="form-control" asp-for="Password"></td>
+            </tr>
+        </table>
+        <button class="btn btn-primary font-wieght-bold" type="submit">Create User</button>
+    </form>
+    <br>
+    <span asp-validation-for="Name"></span>
+    <br>
+    <span asp-validation-for="Email"></span>
+    <br>
+    <span asp-validation-for="Password"></span>
+    <br>
+</main>

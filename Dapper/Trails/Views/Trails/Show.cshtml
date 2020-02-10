@@ -1,0 +1,34 @@
+@model Trail
+
+<div class="jumbotron">
+    <h1 class="display-4">@ViewBag.Trail.Name</h1>
+</div>
+
+<main class="mt-5">
+    <div class="row">
+        <div class="col">
+            <h1 class="border-bottom">Description:</h1>
+            <p>@ViewBag.Trail.Description</p>
+            <h1 class="border-bottom mt-5">Trail Length:</h1>
+            <h3>@ViewBag.Trail.Length Miles</h3>
+            <h1 class="border-bottom mt-5">Elevation Change</h1>
+            <h3>@ViewBag.Trail.Elevation_Change Feet</h3>
+        </div>
+        <div class="col">
+            <div id="map"></div>
+            <script>
+                function initMap() {
+                    var loc = {lat: @ViewBag.Trail.Latitude, lng: @ViewBag.Trail.Longitude};
+                    var map = new google.maps.Map(
+                        document.getElementById('map'), {zoom: 10, center: loc}
+                    );
+                    var marker = new google.maps.Marker({position: loc, map: map}); 
+                }
+            </script>
+            <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrLkvR1Y5JvpcXrrel5TQ24Wx1VplRL2k&callback=initMap">
+            </script>
+            <p>Latitude: @ViewBag.Trail.Latitude | Longitude: @ViewBag.Trail.Longitude</p>
+        </div>
+    </div>
+</main>

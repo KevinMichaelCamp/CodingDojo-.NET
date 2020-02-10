@@ -1,0 +1,17 @@
+@model User
+
+<div class="jumbotron">
+    <h1 class="display-4">All Users</h1>
+</div>
+
+<main>
+    <ul>
+    @foreach (var user in ViewBag.Users)
+    {
+        <li class="mt-3">Name: @user.Name</li>
+        <li>Email: @user.Email</li>
+        <a href="/users/@user.Id"><button class="btn btn-primary">See Info</button></a>
+        <p class="border-bottom mt-2"></p>
+    }
+    </ul>
+</main>
