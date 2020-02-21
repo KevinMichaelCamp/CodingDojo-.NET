@@ -1,0 +1,33 @@
+button {
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.center {
+    margin: auto;
+}
+
+.center td {
+    padding: 50px;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+.jumbotron {
+    margin-top: 20px;
+    padding: 10px !important;
+    text-align: center;
+}
+
+input,
+select,
+textarea {
+    width: 500px !important;
+}
+
+.small {
+    margin: auto;
+    width: 500px;
+}

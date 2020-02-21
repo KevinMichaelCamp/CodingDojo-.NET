@@ -1,0 +1,19 @@
+@model Ninja
+
+<div class="jumbotron">
+    <h1 class="display-4">@ViewBag.Ninja.name</h1>
+</div>
+<table class="table-borderless center">
+    <tr>
+        <td><h2>Ninja Level:</h2></td>
+        <td><h2>@ViewBag.Ninja.level</h2></td>
+    </tr>
+    <tr>
+        <td><h2>Description:</h2></td>
+        <td><h2>@ViewBag.Ninja.description</h2></td>
+    </tr>
+    <tr>
+        <td><h2>Current Dojo:</h2></td>
+        <td><h2>@ViewBag.Ninja.dojo_name</h2></td>
+    </tr>
+</table>

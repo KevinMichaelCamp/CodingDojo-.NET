@@ -1,0 +1,36 @@
+@model Dojo
+
+<div class="jumbotron">
+    <h1 class="display-4">@ViewBag.Dojo.name</h1>
+</div>
+<div class=row>
+    <div class="col border-right">
+        <table class="table-borderless center">
+            <tr>
+                <td><h2>Location:</h2></td>
+                <td><h2>@ViewBag.Dojo.location</h2></td>
+            </tr>
+            <tr>
+                <td><h2>Description:</h2></td>
+                <td><h2>@ViewBag.Dojo.description</h2></td>
+            </tr>
+        </table>
+    </div>
+    <div class="col text-center">
+        <h1 class="center">Current Members</h1>
+        <table class="table small">
+            <thead>
+                <th>Ninja</th>
+            </thead>
+            <tbody>
+                @foreach (var ninja in @ViewBag.Dojo.ninjas)
+                {
+                    <tr>
+                        <td><a href="/ninjas/@ninja.id">@ninja.name</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

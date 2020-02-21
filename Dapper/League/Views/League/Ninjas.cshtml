@@ -1,0 +1,41 @@
+@model Ninja
+
+<div class="row">
+    <div class="col-6 border-right">
+        <h1 class="display-4">All Ninjas</h1>
+        <table class="table">
+            <thead>
+                <th>Ninja Name</th>
+                <th>Home Dojo</th>
+            </thead>
+            <tbody>
+            @foreach ( var ninja in @ViewBag.Ninjas)
+            {
+                <tr>
+                    <td><a href="/ninjas/@ninja.id">@ninja.name</a></td>
+                    <td><a href="/dojos/@ninja.dojo_id">@ninja.dojo.name</a></td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-6">
+        <h1 class="display-4">Register A Ninja</h1>
+        <form class="form" asp-action="AddNinja" asp-controller="League" method="post">
+            <label asp-for="name"></label>
+            <input class="form-control" asp-for="name">
+            <label asp-for="level"></label>
+            <input class="form-control" asp-for="level">
+            <label asp-for="dojo_id"></label>
+            <select class="form-control" asp-for="dojo_id">
+                <option value="1">Cobra Kai</option>
+                <option value="2">Muy Thai</option>
+                <option value="3">Mr. Miyagi's Dojo</option>
+                <option value="4">Teenage Mutant Ninja Turtles</option>
+            </select>
+            <label asp-for="description"></label>
+            <textarea class="form-control" asp-for="description"></textarea>
+            <button class="btn btn-primary" type="submit">Add Ninja</button>
+        </form>
+    </div>
+</div>
