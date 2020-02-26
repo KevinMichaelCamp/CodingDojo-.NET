@@ -1,0 +1,17 @@
+.addUser td {
+    padding: 10px;
+}
+
+.btn-sm {
+    padding: 2px !important;
+}
+
+.jumbotron {
+    margin-top: 20px;
+    padding: 10px !important;
+    text-align: center;
+}
+
+span {
+    color: red;
+}

@@ -1,0 +1,28 @@
+@model Dish
+
+<div class="jumbotron">
+    <h1 class="display-4">@Model.Name</h1>
+    <h4>@Model.Chef</h6>
+</div>
+<main>
+    <h6>@Model.Description</h6>
+    <table class="table-borderless">
+        <tr>
+            <td class="font-weight-bold">Calories:</td>
+            <td>@Model.Calories</td>
+        </tr>
+        <tr>
+            <td class="font-weight-bold">Tastiness:</td>
+            <td>@Model.Tastiness</td>
+        </tr>
+    </table>
+    <div class="row">
+        <div class="col">
+            <a href="/edit/@Model.DishId"><button class="btn btn-warning">Edit Dish</button></a>
+        </div>
+        <div class="col">
+            <a href="/delete/@Model.DishId"><button class="btn btn-danger">Delete Dish</button></a>
+        </div>
+    </div>
+</main>
+

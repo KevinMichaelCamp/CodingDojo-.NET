@@ -1,0 +1,12 @@
+@model IEnumerable<Dish>
+
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to CRUDelicious</h1>
+</div>
+<main>
+    <h2 class="border-bottom">Check out some recent dishes</h2>
+    @foreach (var dish in Model)
+    {
+        <h6><a href="show/@dish.DishId">@dish.Name</a> by @dish.Chef</h6>
+    }
+</main>

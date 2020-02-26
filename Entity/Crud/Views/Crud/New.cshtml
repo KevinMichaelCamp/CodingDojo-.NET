@@ -1,0 +1,42 @@
+@model Dish
+
+<div class="jumbotron">
+    <h1 class="display-4">Add a New Dish</h1>
+</div>
+<main>
+    <form asp-action="Create" asp-controller="Crud" method="post">
+        <div class="row">
+            <div class="col">
+                <label asp-for="Chef"></label>
+                <input class="form-control" asp-for="Chef">
+                <label asp-for="Name"></label>
+                <input class="form-control" asp-for="Name">
+                <label asp-for="Calories"></label>
+                <input class="form-control" asp-for="Calories">
+            </div>
+            <div class="col">
+                <label asp-for="Tastiness"></label>
+                <select class="form-control" asp-for="Tastiness">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <div class="col">
+                <label asp-for="Description"></label>
+                <textarea class="form-control" asp-for="Description"></textarea>
+            </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Add Dish</button>
+    </form>
+    <br>
+    <span asp-validation-for="Chef"></span>
+    <br>
+    <span asp-validation-for="Name"></span>
+    <br>
+    <span asp-validation-for="Calories"></span>
+    <br>
+    <span asp-validation-for="Description"></span>
+</main>
