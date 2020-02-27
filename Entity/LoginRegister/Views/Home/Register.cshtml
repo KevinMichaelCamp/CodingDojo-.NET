@@ -1,0 +1,42 @@
+@model User
+
+<div class="jumbotron">
+    <h1 class="display-4">Register</h1>
+</div>
+<main>
+    <form asp-action="RegisterUser" asp-controller="Home" method="post">
+        <table class="table-borderless">
+            <tr>
+                <td><label asp-for="FirstName"></label></td>
+                <td><input class="form-control" asp-for="FirstName"></td>
+            </tr>
+            <tr>
+                <td><label asp-for="LastName"></label></td>
+                <td><input class="form-control" asp-for="LastName"></td>
+            </tr>
+            <tr>
+                <td><label asp-for="Email"></label></td>
+                <td><input class="form-control" asp-for="Email"></td>
+            </tr>
+            <tr>
+                <td><label asp-for="Password"></label></td>
+                <td><input class="form-control" asp-for="Password"></td>
+            </tr>
+            <tr>
+                <td><label asp-for="Confirm"></label></td>
+                <td><input class="form-control" asp-for="Confirm"></td>
+            </tr>
+        </table>
+        <button class="btn btn-primary" type="submit">Login</button>
+    </form>
+    <br>
+    <span asp-validation-for="FirstName"></span>
+    <br>
+    <span asp-validation-for="LastName"></span>
+    <br>
+    <span asp-validation-for="Email"></span>
+    <br>
+    <span asp-validation-for="Password"></span>
+    <br>
+    <span asp-validation-for="Confirm"></span>
+</main>
