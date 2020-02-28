@@ -1,0 +1,13 @@
+button {
+    font-weight: bold !important;
+}
+
+.jumbotron {
+    margin-top: 20px;
+    padding: 10px !important;
+    text-align: center;
+}
+
+span {
+    color: red;
+}

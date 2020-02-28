@@ -1,0 +1,26 @@
+@model List<Dish>
+
+<div class="jumbotron">
+    <h1 class="display-4">All Dishes</h1>
+</div>
+<main>
+    <table class="table">
+        <thead>
+            <th>Name</th>
+            <th>Chef</th>
+            <th>Calories</th>
+            <th>Tastiness</th>
+        </thead>
+        <tbody>
+        @foreach (var dish in Model)
+        {
+        <tr>
+            <td>@dish.Name</td>
+            <td>@dish.CreatedBy.FirstName @dish.CreatedBy.LastName</td>
+            <td>@dish.Calories</td>
+            <td>@dish.Tastiness</td>
+        </tr>
+        }
+        </tbody>
+    </table>
+</main>
