@@ -1,0 +1,27 @@
+@model Product
+
+<div class="jumbotron">
+    <h1 class="display-4">@Model.Name</h1>
+</div>
+<div class="row">
+    <div class="col border-right">
+        <h4>Categories</h4>
+        @foreach (var assoc in @Model.Associations)
+        {
+            <p>-@assoc.Category.Name</p>
+        }
+    </div>
+    <div class="col">
+        <h4>Add Category</h4>
+        <form asp-action="AddToCategory" asp-route-isProduct="true" asp-controller="Home" method="post">
+            <input type="hidden" name="ProductId" value="@Model.ProductId">
+            <select class="form-control" name="CategoryId">
+                @foreach (var c in ViewBag.Categories)
+                {
+                    <option value="@c.CategoryId">@c.Name</option>
+                }
+            </select>
+            <button class="btn btn-primary" type="submit">Add Category</button>
+        </form>
+    </div>
+</div>

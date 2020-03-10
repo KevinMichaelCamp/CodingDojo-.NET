@@ -1,0 +1,52 @@
+@model Transaction
+
+<div class="jumbotron">
+    <h1 class="display-4">Welcome, @ViewBag.User.FirstName @ViewBag.User.LastName</h1>
+</div>
+<main>
+    <div class="row">
+        <div class="col-8 border-right">
+            <h4>Transaction History</h4>
+            <table class="table">
+                <thead>
+                    <th>Type</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                </thead>
+                <tbody>
+                @foreach (var trans in @ViewBag.User.Transactions)
+                {
+                    <tr>
+                        <td>@trans.Type</td>
+                        <td>@trans.Amount</td>
+                        <td>@trans.CreatedAt</td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+        <div class="col-4">
+            <h4>Current Balance: <span class="balance">@ViewBag.User.Balance</span></h4>
+            <form asp-action="MakeTransaction" asp-controller="Bank" method="post">
+                <table class="table table-borderless">
+                    <tr>
+                        <td><label asp-for="Type"></label></td>
+                        <td><select class="form-control" asp-for="Type">
+                            <option value="deposit">Deposit</option>
+                            <option value="withdrawal">Withdrawal</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="Amount"></label></td>
+                        <td><input class="form-control" asp-for="Amount"></td>
+                    </tr>
+                </table>
+                <button class="btn btn-primary" type="submit">Make Transaction</button>
+            </form>
+            <br>
+            <span class="red" asp-validation-for="Type"></span>
+            <br>
+            <span class="red" asp-validation-for="Amount"></span>
+        </div>
+    </div>
+</main>

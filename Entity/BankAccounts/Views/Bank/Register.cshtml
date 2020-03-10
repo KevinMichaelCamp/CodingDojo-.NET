@@ -1,0 +1,42 @@
+@model User
+
+<div class="jumbotron">
+    <h1 class="display-4">Register New User</h1>
+</div>
+<main>
+    <form asp-action="RegisterUser" asp-controller="Bank" method="POST">
+        <table class="table table-borderless">
+            <tr>
+                <td><label asp-for="FirstName"></label></td>
+                <td><input class="form-control" asp-for="FirstName"></td>
+            </tr>
+            <tr>
+                <td><label asp-for="LastName"></label></td>
+                <td><input class="form-control" asp-for="LastName"></td>
+            </tr>
+            <tr>
+                <td><label asp-for="Email"></label></td>
+                <td><input class="form-control" asp-for="Email"></td>
+            </tr>
+            <tr>
+                <td><label asp-for="Password"></label></td>
+                <td><input class="form-control" asp-for="Password"></td>
+            </tr>
+            <tr>
+                <td><label asp-for="Confirm"></label></td>
+                <td><input class="form-control" asp-for="Confirm"></td>
+            </tr>
+        </table>
+        <button class="btn btn-primary" type="submit">Register</button>
+    </form>
+    <br>
+    <span class="red" asp-validation-for="FirstName"></span>
+    <br>
+    <span class="red" asp-validation-for="LastName"></span>
+    <br>
+    <span class="red" asp-validation-for="Email"></span>
+    <br>
+    <span class="red" asp-validation-for="Password"></span>
+    <br>
+    <span class="red" asp-validation-for="Confirm"></span>
+</main>

@@ -1,0 +1,25 @@
+@model LoginUser
+
+<div class="jumbotron">
+    <h1 class="display-4">User Login</h1>
+</div>
+
+<main>
+    <form asp-action="LoginUser" asp-controller="Bank" method="POST">
+        <table class="table table-borderless">
+            <tr>
+                <td><label asp-for="Email"></label></td>
+                <td><input class="form-control" asp-for="Email"></td>
+            </tr>
+            <tr>
+                <td><label asp-for="Password"></label></td>
+                <td><input class="form-control" asp-for="Password"></td>
+            </tr>
+        </table>
+        <button class="btn btn-primary" type="submit">Login</button>
+    </form>
+    <br>
+    <span class="red" asp-validation-for="Email"></span>
+    <br>
+    <span class="red" asp-validation-for="Password"></span>
+</main>

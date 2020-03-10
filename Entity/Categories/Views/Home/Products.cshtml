@@ -1,0 +1,36 @@
+@model Product
+
+<div class="jumbotron">
+    <h1 class="display-4">Products</h1>
+</div>
+<main>
+    <div class="row">
+        <div class="col">
+            <h4>New Product</h4>
+            <form asp-action="AddProduct" asp-controller="Home" method="POST">
+                <table class="table table-borderless">
+                    <tr>
+                        <td><label asp-for="Name"></label></td>
+                        <td><input class="form-control" asp-for="Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="Description"></label></td>
+                        <td><input class="form-control" asp-for="Description"></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="Price"></label></td>
+                        <td><input class="form-control" asp-for="Price"></td>
+                    </tr>
+                </table>
+                <button class="btn btn-primary" type="submit">Create</button>
+            </form>
+        </div>
+        <div class="col">
+            <h4>Existing Products</h4>
+            @foreach (var product in @ViewBag.Products)
+            {
+                <p><a href="/products/@product.ProductId">@product.Name</a></p>
+            }
+        </div>
+    </div>
+</main>
