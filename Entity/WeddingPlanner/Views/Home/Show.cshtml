@@ -1,0 +1,13 @@
+@model Wedding
+
+<partial name="NavPartial"/>
+<div class="jumbotron">
+    <h1 class="display-4">@Model.Groom & @Model.Bride's Wedding</h1>
+</div>
+<h4 class="showbox">Date: @Model.Date.DayOfWeek, @Model.Date.ToString("MMMM") @Model.Date.Day, @Model.Date.Year</h4>
+<h4 class="showbox">Address: @Model.Address</h4>
+<h4 class="showbox">Guests:</h4>
+@foreach (var rsvp in @Model.Responses)
+{
+    <p>@rsvp.Guest.FullName</p>
+}

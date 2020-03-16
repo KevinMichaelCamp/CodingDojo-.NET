@@ -1,0 +1,21 @@
+button {
+    font-weight: bold !important;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.jumbotron {
+    margin-top: 20px;
+    padding: 10px !important;
+    text-align: center;
+}
+
+.showbox {
+    margin-bottom: 20px;
+}
+
+span {
+    color: red;
+}

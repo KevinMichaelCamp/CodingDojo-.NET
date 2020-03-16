@@ -1,0 +1,39 @@
+@model List<Wedding>
+
+<partial name="NavPartial"/>
+<div class="jumbotron">
+    <h1 class="display-4">Welcome, @ViewBag.ThisUser.FirstName @ViewBag.ThisUser.LastName</h1>
+</div>
+<main>
+    <table class="table">
+        <thead>
+            <th>Wedding</th>
+            <th>Date</th>
+            <th>Guest</th>
+            <th>Action</th>
+        </thead>
+        <tbody>
+        @foreach (var wedding in Model)
+        {
+        <tr>
+            <td><a href="/show/@wedding.WeddingId">@wedding.Groom & @wedding.Bride</a></td>
+            <td>@wedding.Date</td>
+            <td>@wedding.Responses.Count()</td>
+            @{
+            if (@ViewBag.ThisUser.UserId == wedding.UserId)
+            {
+                <td><a asp-action="Remove" asp-controller="Home" asp-route-weddingId="@wedding.WeddingId">Delete</a></td>
+            }
+            else if (wedding.Responses.Any(r => r.UserId == ViewBag.ThisUser.UserId))
+            {
+                <td><a asp-action="unRSVP" asp-controller="Home" asp-route-weddingId="@wedding.WeddingId">Un-RSVP</a></td>
+            }
+            else {
+                <td><a asp-action="RSVP" asp-controller="Home" asp-route-weddingId="@wedding.WeddingId">RSVP</a></td>
+            }}
+        </tr>
+        }
+        </tbody>
+    </table>
+    <a href="/new"><button class="btn btn-primary">New Wedding</button>
+</main></a>
